@@ -19,3 +19,5 @@ Da Yannick krank war habe ich mich alleine mit snap beschaftigt, d.h ich habe mi
 
 ### <a name="4"></a>Informatik Stunde 4:
 Yannick war noch weg, weshalb ich mich mit unserem github account bzw. unserem Blog beschäftigt habe. Mein Problem war, dass ich nicht wusste, wie ich Bilder in meine Repositories hochladen konnte. In ihrer README.md datei haben sie z.B diesen (![bsp starlogtng](image/starlogotng_bsp.jpg "Screenshot von StarLogoTNG")) befehl benutzt. Wenn ich jedoch diesen Befehl kopiert habe wurde das Bild nicht angezeigt. Dann habe ich im Internet danach geguckt wie man Bilder bei github einfügen kann und da wurde gezeigt, dass man die bilder per drag and drop bei Issues hochladen kann und dann einfach in die README.md Datei reinkopieren kann. Der Blog sieht nun wie folgt aus:
+![4  informatik Stunde 2](https://user-images.githubusercontent.com/69623479/90879870-dd4bd700-e3a7-11ea-9205-cbc577ac4d74.PNG)
+Währenddessen habe ich mit Samed zusammen herausgekrigt wie man die Grundbewegung des Spiels Snake zusammenstellt.
