@@ -3,8 +3,8 @@
 [Informatik Stunde 1](#1)  
 [Informatik Stunde 2](#2)  
 [Informatik Stunde 3](#3)  
-[Informatik Stunde 4](#4) 
-[Informatik Stunde 5](#5) 
+[Informatik Stunde 4](#4)  
+[Informatik Stunde 5](#5)  
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap projekt entschieden.
