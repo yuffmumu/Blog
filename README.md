@@ -24,4 +24,5 @@ Yannick war noch weg, weshalb ich mich mit unserem github account bzw. unserem B
 Währenddessen habe ich mit Samed zusammen herausgekrigt wie man die Grundbewegung des Spiels Snake zusammenstellt.
 
 ### <a name="5"></a>Informatik Stunde 5:
-Wir haben nun angefangen an umserem richtigen Spiel zu arbeiten, indem wir Mechaniken wie Schwerkraft eingebaut haben. unser größtes Problem war, das wir unendlich hoch "fliegen" konnten.
+Wir haben nun angefangen an umserem richtigen Spiel zu arbeiten, indem wir Mechaniken wie Schwerkraft eingebaut haben. unser größtes Problem war, das wir unendlich hoch "fliegen" konnten.![5  informatik Stunde](https://user-images.githubusercontent.com/69623479/91162621-9c680100-e6cc-11ea-91fa-2650e29a1915.PNG)
+
