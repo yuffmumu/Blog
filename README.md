@@ -34,3 +34,4 @@ Das erste Ziel war selbstverständlich es unmöglich zu machen, zu fliegen, glei
 Die Dynamik des Sprungs war nach einiger Zeit unseren Vorstellungen entsprechend, jedoch Ignorierte unser Charakter nach jedem Sprung auf einmal den Ursprünglichen Boden was wir in der Stunde nicht mehr Lösen konnten. 
 ![sprung ansatz](https://user-images.githubusercontent.com/69623479/91548387-97ea5500-e925-11ea-8ceb-5ddb9bb0a70d.PNG)
 Zu hause konnte dann mithilfe eines anderen ausgangsscripts der Sprung doch vervollständigt werden. Es wurde auch schnell herausgefunden, dass man forever befehle braucht, um den "Charakter" auch in der Luft bewegen zu können. Das Egebniss sah dann wie folgt aus:
+![6  informatik Stunde (Nachmittags)](https://user-images.githubusercontent.com/69623479/91549931-05978080-e928-11ea-9f12-c73a00dd3456.PNG)
