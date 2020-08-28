@@ -5,6 +5,7 @@
 [Informatik Stunde 3](#3)  
 [Informatik Stunde 4](#4)  
 [Informatik Stunde 5](#5)  
+[Informatik Stunde 6](#6) 
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap projekt entschieden.
@@ -24,5 +25,11 @@ Yannick war noch weg, weshalb ich mich mit unserem github account bzw. unserem B
 Währenddessen habe ich mit Samed zusammen herausgekrigt wie man die Grundbewegung des Spiels Snake zusammenstellt.
 
 ### <a name="5"></a>Informatik Stunde 5:
-Wir haben nun angefangen an umserem richtigen Spiel zu arbeiten, indem wir Mechaniken wie Schwerkraft eingebaut haben. unser größtes Problem war, das wir unendlich hoch "fliegen" konnten.![5  informatik Stunde](https://user-images.githubusercontent.com/69623479/91162621-9c680100-e6cc-11ea-91fa-2650e29a1915.PNG)
+Wir haben nun angefangen an umserem richtigen Spiel zu arbeiten, indem wir erste Mechaniken wie Schwerkraft, Bewegung nach Links und Rechts eingebaut haben. Unser größtes Problem war, dass wir beim eigentlichen Springen, durchs Halten der Leerstaste unendlich hoch "fliegen" konnten.  
+![5  informatik Stunde](https://user-images.githubusercontent.com/69623479/91162621-9c680100-e6cc-11ea-91fa-2650e29a1915.PNG)
 
+### <a name="6"></a>Informatik Stunde 6:
+Wir haben uns weiter mit dem Sprung unseres Spiels beschäftigt. 
+Das erste Ziel war selbstverständlich es unmöglich zu machen, zu fliegen, gleichzeitig wollten wir das Verhalten des Sprungs aber auch komplexer machen, sodass unser "Character" beim Drücken der Leertaste sich nicht statisch nach oben und Unten bewegt, sondern Dynamisch an Geschwindigkeit ab und zu nimmt, sodass der Eindruck eines Physikalisch logischen Sprungs entstand.
+Die Dynamik des Sprungs war nach einiger Zeit unseren Vorstellungen entsprechend, jedoch Ignorierte unser Charakter nach jedem Sprung auf einmal den Ursprünglichen Boden was wir in der Stunde nicht mehr Lösen konnten.
+! [6 informatik Stunde](
