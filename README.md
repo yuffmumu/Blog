@@ -7,6 +7,7 @@
 [Informatik Stunde 5](#5)  
 [Informatik Stunde 6](#6)  
 [Informatik Stunde 7](#7)  
+[Informatik Stunde 8,9](#8,9)  
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap projekt entschieden.
@@ -42,3 +43,5 @@ In der 7. Informatik Stunde haben wir seperat an unserem Projekt gearbeitet. Yan
 ![7  informatik Stunde (Yuff)](https://user-images.githubusercontent.com/69623479/92225456-84019e80-eea3-11ea-8d3c-6a3ed420d1e2.PNG)
 Malte beschäftigte sich mit dem Kreieren eines "Power-Blocks", welcher Die Sprite vergrößert und die Farbe abwechselnd zwischen Blau und Rot wechseln ließ. Malte bemerkte, dass es kein Zeitlimit des Effekts gab machte sich daran einen Timer einzubauen. Dies wurde mithilfe einer Variable, die auf 5 gesetzt und bei jedem Farbwechel mit -1 subtrahiert wurde umgesetzt, so das Insgesamt 5 mal die Fareb von Blau nach Rot und wieder zurück gewechselt wurde. Der Script unten rechts ist der in diesem Text besprochene.
 ![7  informatik Stunde (Mumu)](https://user-images.githubusercontent.com/69623479/92225454-82d07180-eea3-11ea-818d-b88912a91c9e.PNG)
+
+### <a name="8,9"></a>Informatik Stunde 8,9:
