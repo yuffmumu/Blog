@@ -46,6 +46,8 @@ Malte beschäftigte sich mit dem Kreieren eines "Power-Blocks", welcher Die Spri
 ![7  informatik Stunde (Mumu)](https://user-images.githubusercontent.com/69623479/92225454-82d07180-eea3-11ea-818d-b88912a91c9e.PNG)
 
 ### <a name="8,9"></a>Informatik Stunde 8,9:
-Wir haben DIE GANZE Zeit an ranzischen Blöggen geaurbeitet (Blog noch schreiben!)
+(Blog noch schreiben!) Wir haben DIE GANZE Zeit an ranzischen Blöggen geaurbeitet
 
 ### <a name="10"></a>Informatik Stunde 10:
+(Blog noch schreiben!) Ich hab stund 7,8,9 u. 10 im Blog aufgeholt yuff hat das gemacht: 
+![10  informatik Stunde](https://user-images.githubusercontent.com/69623479/92228330-012f1280-eea8-11ea-8e2d-aa2a01ecb9f2.PNG)
