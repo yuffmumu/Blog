@@ -45,3 +45,4 @@ Malte beschäftigte sich mit dem Kreieren eines "Power-Blocks", welcher Die Spri
 ![7  informatik Stunde (Mumu)](https://user-images.githubusercontent.com/69623479/92225454-82d07180-eea3-11ea-818d-b88912a91c9e.PNG)
 
 ### <a name="8,9"></a>Informatik Stunde 8,9:
+Wir haben DIE GANZE Zeit an ranzischen Blöggen geaurbeitet (Blog noch schreiben!)
