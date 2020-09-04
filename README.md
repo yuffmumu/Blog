@@ -38,3 +38,6 @@ Zu hause konnte dann mithilfe eines anderen ausgangsscripts der Sprung doch verv
 ![6  informatik Stunde (Nachmittags)](https://user-images.githubusercontent.com/69623479/91549931-05978080-e928-11ea-9f12-c73a00dd3456.PNG)  
 
 ### <a name="7"></a>Informatik Stunde 7:
+In der 7. Informatik Stunde haben wir seperat an unserem Projekt gearbeitet. Yannick hat sich mit dem Designen der Stage in bezug auf Plattformen und Grafiken beschäftigt. Das "stehen" auf den Plattformen wurde in dem Fall mit "if touching Farbe ( )" verwirklicht. Das Endergebniss der Stunde sieht wie folgt aus:
+![7  informatik Stunde (Yuff)](https://user-images.githubusercontent.com/69623479/92225456-84019e80-eea3-11ea-8d3c-6a3ed420d1e2.PNG)
+![7  informatik Stunde (Mumu)](https://user-images.githubusercontent.com/69623479/92225454-82d07180-eea3-11ea-818d-b88912a91c9e.PNG)
