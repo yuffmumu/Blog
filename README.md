@@ -49,5 +49,6 @@ Malte beschäftigte sich mit dem Kreieren eines "Power-Blocks", welcher Die Spri
 (Blog noch schreiben!) Wir haben DIE GANZE Zeit an ranzischen Blöggen geaurbeitet
 
 ### <a name="10"></a>Informatik Stunde 10:
-(Blog noch schreiben!) Ich hab stund 7,8,9 u. 10 im Blog aufgeholt yuff hat das gemacht: 
+(Blog noch schreiben!) Heute hat Yannick ein Skript zum Animieren der Characterbewegungen erstellt.
+Malte hat den Blog für die Stunden 7,8 und 9 geschrieben.
 ![10  informatik Stunde](https://user-images.githubusercontent.com/69623479/92228330-012f1280-eea8-11ea-8e2d-aa2a01ecb9f2.PNG)
