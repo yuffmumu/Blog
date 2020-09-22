@@ -49,7 +49,9 @@ Malte beschäftigte sich mit dem Kreieren eines "Power-Blocks", welcher Die Spri
 (Blog noch schreiben!) Wir haben DIE GANZE Zeit an ranzischen Blöggen geaurbeitet
 
 ### <a name="10"></a>Informatik Stunde 10:
-(Blog noch schreiben!) Heute hat Yannick ein Skript zum Animieren der Characterbewegungen erstellt.
+Als nächstes sollte sich der Character nicht als statische Graphik bewegen, sondern in einer Animation.
+Yannick hat um dies zu erreichen eine Commandkette erstellt bei der man in beliebigen Zeitabständen, beliebig viele Kostüme unter der Bedingung, dass die entsprechende Taste gedrückt wird, einfügen kann. 
 
-Malte hat den Blog für die Stunden 7,8 und 9 geschrieben.
 ![10  informatik Stunde](https://user-images.githubusercontent.com/69623479/92228330-012f1280-eea8-11ea-8e2d-aa2a01ecb9f2.PNG)
+
+Währenddessen hat Malte an dem Blog für die Tage 7,8,9 gearbeitet.
