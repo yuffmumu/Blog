@@ -67,5 +67,5 @@ Nach kurzem überlegen ergab sich dann die Sprite "Ziel" und Folgendes Skript zu
 
 ![Animation nach erreichen des Ziels](https://user-images.githubusercontent.com/69623479/93869768-8d28a300-fccc-11ea-9a02-0ff56af689e9.PNG)
 
-
+![Neue Sprite-Ziel](https://user-images.githubusercontent.com/69623479/93869790-91ed5700-fccc-11ea-8b22-827ebab7be43.PNG)
 
