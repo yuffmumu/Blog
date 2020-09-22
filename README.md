@@ -9,6 +9,7 @@
 [Informatik Stunde 7](#7)  
 [Informatik Stunde 8,9](#8,9)  
 [Informatik Stunde 10](#10) 
+[Informatik Stunde 11](#11) 
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap projekt entschieden.
@@ -55,3 +56,16 @@ Yannick hat um dies zu erreichen eine Commandkette erstellt bei der man in belie
 ![10  informatik Stunde](https://user-images.githubusercontent.com/69623479/92228330-012f1280-eea8-11ea-8e2d-aa2a01ecb9f2.PNG)
 
 Währenddessen hat Malte an dem Blog für die Tage 7,8,9 gearbeitet.
+
+### <a name="11"></a>Informatik Stunde 11:
+
+Um dem Spiel etwas mehr Struktur zu verleihen, sollte es nun ein Ziel geben.
+Yannick hat also eine Sprite erstellt die, wenn sie erreicht wird das Script stoppt und erlaubt eine Graphik einzublenden die Signalisiert, dass das Level abgeschlossen ist.
+Das war nach kurzem Probieren kein großes Problem, jedoch wollte Yannick als Zusatz eine Kleine Animation für den Character nach dem Erreichen des Ziels einbauen, dies stellte sich als kleines Problem heraus, da das erreichen des Ziels jedes Script im Programm stoppt, es musste der Command mit der Animation von diesem Befehl ignoriert werden. 
+
+Nach kurzem überlegen ergab sich dann die Sprite "Ziel" und Folgendes Skript zum Animieren des Characters nach erreichen des Ziels.
+
+
+
+
+
