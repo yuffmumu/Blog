@@ -47,7 +47,9 @@ Malte beschäftigte sich mit dem Kreieren eines "Power-Blocks", welcher Die Spri
 ![7  informatik Stunde (Mumu)](https://user-images.githubusercontent.com/69623479/92225454-82d07180-eea3-11ea-818d-b88912a91c9e.PNG)
 
 ### <a name="8,9"></a>Informatik Stunde 8,9:
-(Blog noch schreiben!) Wir haben DIE GANZE Zeit an ranzischen Blöggen geaurbeitet
+In den letzten beiden Stunden haben wir uns ausschließlich mit dem Programmieren von schwebenden Plattformen, bzw. dem richtigen physikalischen Verhalten der Spielfigur den Blöcken gegenüber beschäftigt. Das große und immernoch ungelöste Problem, die 4 Seiten der Blöcke für unsere Spielfigur undurchlässig zu machen war der Kern unserer Überlegungen. Wir konnten auf den Blöcken stehen, indem wir unser "Schwerkraft-Skript" mit dem if-befehl "if not touching [schwebende Plattform]" eingegrenzt haben. Das wir nicht von unten durch die Plattform durchspringen konnten haben wir damit gelöst den Sprung Skript mit dem if-Befehl "if touching [schwebende PLattform] stop this skript. Um das durchdringen des Blocks von der Seite zu verhindern haben wir einen Flag erstellt. Wir haben einen if Befehl festgelegt, dass wenn der Block berührt wird "touching Block" = 1 ist und sonst = 0. Dann haben wir die Bedingung, dass wenn "if touching Block" = 1 der Skript stoppt, in unseren Bewegungsskript eingebaut: 
+![8,9 informatik Stunde (Flag)](https://user-images.githubusercontent.com/69623479/93868945-733a9080-fccb-11ea-92bd-01ee783e56f5.PNG)
+Das Probelm ist jetzt, dass die Spielfigur sich auch nicht nach rechts und links bewegen kann wenn wir von oben oder unten den Block berühren. Dann haben wir überlegt mann müsse einfach die Seiten links und rechts von den oben und unten unterscheiden können. Wir haben dann erstmal oben eine unsichtbare 2. Plattform draufbepackt jedoch ist die Spielfigur immernoch durchgeglitscht und konnte sich dann nicht bwewegen. Mann hätte also die unsichtbare Plattform so groß machen müssen, dass die Spielfigur irgendwo in der Luft schwebt.
 
 ### <a name="10"></a>Informatik Stunde 10:
 Als nächstes sollte sich der Character nicht als statische Graphik bewegen, sondern in einer Animation.
