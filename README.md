@@ -65,7 +65,7 @@ Das war nach kurzem Probieren kein großes Problem, jedoch wollte Yannick als Zu
 
 Nach kurzem überlegen ergab sich dann die Sprite "Ziel" und Folgendes Skript zum Animieren des Characters nach erreichen des Ziels.
 
-
+![Animation nach erreichen des Ziels](https://user-images.githubusercontent.com/69623479/93869768-8d28a300-fccc-11ea-9a02-0ff56af689e9.PNG)
 
 
 
