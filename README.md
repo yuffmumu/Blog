@@ -8,8 +8,9 @@
 [Informatik Stunde 6](#6)  
 [Informatik Stunde 7](#7)  
 [Informatik Stunde 8,9](#8,9)  
-[Informatik Stunde 10](#10) 
-[Informatik Stunde 11](#11) 
+[Informatik Stunde 10](#10)  
+[Informatik Stunde 11](#11)  
+[Informatik Stunde 12](#12)
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap projekt entschieden.
@@ -49,7 +50,7 @@ Malte beschäftigte sich mit dem Kreieren eines "Power-Blocks", welcher Die Spri
 ### <a name="8,9"></a>Informatik Stunde 8,9:
 In den letzten beiden Stunden haben wir uns ausschließlich mit dem Programmieren von schwebenden Plattformen, bzw. dem richtigen physikalischen Verhalten der Spielfigur den Blöcken gegenüber beschäftigt. Das große und immernoch ungelöste Problem, die 4 Seiten der Blöcke für unsere Spielfigur undurchlässig zu machen war der Kern unserer Überlegungen. Wir konnten auf den Blöcken stehen, indem wir unser "Schwerkraft-Skript" mit dem if-befehl "if not touching [schwebende Plattform]" eingegrenzt haben. Das wir nicht von unten durch die Plattform durchspringen konnten haben wir damit gelöst den Sprung Skript mit dem if-Befehl "if touching [schwebende PLattform] stop this skript. Um das durchdringen des Blocks von der Seite zu verhindern haben wir einen Flag erstellt. Wir haben einen if Befehl festgelegt, dass wenn der Block berührt wird "touching Block" = 1 ist und sonst = 0. Dann haben wir die Bedingung, dass wenn "if touching Block" = 1 der Skript stoppt, in unseren Bewegungsskript eingebaut: 
 ![8,9 informatik Stunde (Flag)](https://user-images.githubusercontent.com/69623479/93868945-733a9080-fccb-11ea-92bd-01ee783e56f5.PNG)
-Das Probelm ist jetzt, dass die Spielfigur sich auch nicht nach rechts und links bewegen kann wenn wir von oben oder unten den Block berühren. Dann haben wir überlegt mann müsse einfach die Seiten links und rechts von den oben und unten unterscheiden können. Wir haben dann erstmal oben eine unsichtbare 2. Plattform draufbepackt jedoch ist die Spielfigur immernoch durchgeglitscht und konnte sich dann nicht bwewegen. Mann hätte also die unsichtbare Plattform so groß machen müssen, dass die Spielfigur irgendwo in der Luft schwebt.
+ Das Probelm ist jetzt, dass die Spielfigur sich auch nicht nach rechts und links bewegen kann wenn wir von oben oder unten den Block berühren. Dann haben wir überlegt mann müsse einfach die Seiten links und rechts von den oben und unten unterscheiden können. Wir haben dann erstmal oben eine unsichtbare 2. Plattform draufbepackt jedoch ist die Spielfigur immernoch durchgeglitscht und konnte sich dann nicht bwewegen. Mann hätte also die unsichtbare Plattform so groß machen müssen, dass die Spielfigur irgendwo in der Luft schwebt.
 
 ### <a name="10"></a>Informatik Stunde 10:
 Als nächstes sollte sich der Character nicht als statische Graphik bewegen, sondern in einer Animation.
@@ -60,7 +61,6 @@ Yannick hat um dies zu erreichen eine Commandkette erstellt bei der man in belie
 Währenddessen hat Malte an dem Blog für die Tage 7,8,9 gearbeitet.
 
 ### <a name="11"></a>Informatik Stunde 11:
-
 Um dem Spiel etwas mehr Struktur zu verleihen, sollte es nun ein Ziel geben.
 Yannick hat also eine Sprite erstellt die, wenn sie erreicht wird das Script stoppt und erlaubt eine Graphik einzublenden die Signalisiert, dass das Level abgeschlossen ist.
 Das war nach kurzem Probieren kein großes Problem, jedoch wollte Yannick als Zusatz eine Kleine Animation für den Character nach dem Erreichen des Ziels einbauen, dies stellte sich als kleines Problem heraus, da das erreichen des Ziels jedes Script im Programm stoppt, es musste der Command mit der Animation von diesem Befehl ignoriert werden. 
@@ -71,3 +71,5 @@ Nach kurzem überlegen ergab sich dann die Sprite "Ziel" und Folgendes Skript zu
 
 ![Neue Sprite-Ziel](https://user-images.githubusercontent.com/69623479/93869790-91ed5700-fccc-11ea-8b22-827ebab7be43.PNG)
 
+### <a name="12"></a>Informatik Stunde 12:
+Wir haben die gesamte Stunde den Block geschrieben.
