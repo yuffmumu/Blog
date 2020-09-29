@@ -72,4 +72,4 @@ Nach kurzem überlegen ergab sich dann die Sprite "Ziel" und Folgendes Skript zu
 ![Neue Sprite-Ziel](https://user-images.githubusercontent.com/69623479/93869790-91ed5700-fccc-11ea-8b22-827ebab7be43.PNG)
 
 ### <a name="12"></a>Informatik Stunde 12:
-Wir haben die gesamte Stunde den Block geschrieben.
+Wir haben die gesamte Stunde den Blog geschrieben.
