@@ -92,3 +92,7 @@ In dieser Stunde haben Malte und Yannick wieder seperat gearbeitet.
 Yannick hat sich damit beschäftigt nach dem Erreichen des Ziels zum nächsten Level zu kommen.
 Dafür hat er einen Command erstellt der kollektiv eine Nachricht an alle beteiligten Elemente schickt um somit entsprechende neue Commands zu aktivieren.
 
+![stage ändern wenn ziel erreicht anfang script pic](https://user-images.githubusercontent.com/69623479/94543745-ba380100-024a-11eb-9e44-0ae9fcc58ca5.png)
+
+Sobald die Nachricht, dass das Ziel erreicht wurde angekommen ist wird dem Spieler ermöglicht durch das drücken der gewählten Taste das 2 Level zu betreten.
+Das funktionierte soweit auch, nun war aber das Ziel, immer das Nächste Level betreten zu können, der Command sah jedoch vor, nach dem Erreichen des Ziels immer zum 2. Level zu wechseln, was sich in der Stunde nicht mehr lösen lies.
