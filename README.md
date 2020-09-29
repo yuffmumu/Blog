@@ -12,6 +12,7 @@
 [Informatik Stunde 11](#11)  
 [Informatik Stunde 12](#12)
 [Informatik Stunde 13](#13)
+[Informatik Stunde 14](#14)
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap projekt entschieden.
@@ -76,3 +77,18 @@ Nach kurzem überlegen ergab sich dann die Sprite "Ziel" und Folgendes Skript zu
 Wir haben die gesamte Stunde den Blog geschrieben.
 
 ### <a name="13"></a>Informatik Stunde 13:
+
+In der 13 Informatikstunde haben wir fast vollständig eine neue Mechanik in das Spiel integriert: den Schuss.
+Das Ziel war ein Projektil vom Character aus nach links und rechts abfeuern zu können. 
+Ein grober Anfang davon war auch kein Problem, denn eine zusätzliche Sprite mit einer Anderen Sprite (den Spielcharacter) als Startpunkt in die X oder -X Richtung laufen zu lassen ist sehr simpel zu programmieren.
+Doch kleine Feinheiten passten noch nicht. 
+So wurde zu erst die Position des nächsten Schusses festgelegt in dem moment wo der erste den Rand berührte. bewegte man sich also weiter stimmten Schuiss und Characterposition nicht mehr überein. Dies lies sich jedoch relativ schnell lösen, indem man den Schuss erst wieder an die Position des Spielcharacters befördert in dem Moment wo er auch tatsächlich abgefeuert wird.
+Ein weiteres und schwereres Problem war, dass wenn man in eine Richtung schoss und noch während der Schuss Flog einen Schuss in die andere Richtung inniziierte. Dies sorgte dafür, dass der Schuss still in der Luft stehen blieb und nicht mehr Funktionierte.
+Dies konnten wir in der 13ten Stunde nicht mehr lösen.
+
+### <a name="14"></a>Informatik Stunde 14:
+
+In dieser Stunde haben Malte und Yannick wieder seperat gearbeitet.
+Yannick hat sich damit beschäftigt nach dem Erreichen des Ziels zum nächsten Level zu kommen.
+Dafür hat er einen Command erstellt der kollektiv eine Nachricht an alle beteiligten Elemente schickt um somit entsprechende neue Commands zu aktivieren.
+
