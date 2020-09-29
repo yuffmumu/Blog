@@ -11,6 +11,7 @@
 [Informatik Stunde 10](#10)  
 [Informatik Stunde 11](#11)  
 [Informatik Stunde 12](#12)
+[Informatik Stunde 13](#13)
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap projekt entschieden.
@@ -73,3 +74,5 @@ Nach kurzem überlegen ergab sich dann die Sprite "Ziel" und Folgendes Skript zu
 
 ### <a name="12"></a>Informatik Stunde 12:
 Wir haben die gesamte Stunde den Blog geschrieben.
+
+### <a name="13"></a>Informatik Stunde 13:
