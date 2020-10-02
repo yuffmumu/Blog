@@ -106,3 +106,8 @@ So ordnete Yannick ein neues Ziel mit entsprechend angeglichenem Code den einzel
 
 ![1 ziel pro level](https://user-images.githubusercontent.com/69623479/94909410-670cbb00-04a3-11eb-8ca2-479f4fc7ef0f.PNG)
 
+Da Yannick sich schon zu Hause diese Lösung überlegt hatte war die Umsetzung schnell erreicht.
+Die übrige Zeit nutzte er um an einem neuen Element im Spiel zu arbeiten: dem Trampolin.
+Würde man dieses berühren, sollte ein größerer Sprung automatisch ausgeführt werden. 
+Bis auf den Feinschliff in Sachen Effektstärke und implimentierung im Spiel selbst wurde dies auch noch in derselben Stunde erreicht.
+
