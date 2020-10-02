@@ -118,5 +118,9 @@ Zu Hause hat sich Yannick zudem noch mit einer Weiteren Mechanik beschäftigt.
 Von 3 Leben, wie sie auch Malte bei seinen Gegnern hatte, sollten beim herunterfallen von Plattformen eines abgezogen werden, und der Character zurück zum Anfang des Levels zurück gebracht werden.
 Dies ließ sich reibungslos einfügen:
 
+![Anfang Jump and run spiel script pic (1)](https://user-images.githubusercontent.com/69623479/94911146-fdda7700-04a5-11eb-9771-310b6a782ed3.png)
+
+zudem wurde noch direkt eine eintsprechend auf die Variable regaierende Graphik eingefügt:
+
 
 
