@@ -13,6 +13,7 @@
 [Informatik Stunde 12](#12)
 [Informatik Stunde 13](#13)
 [Informatik Stunde 14](#14)
+[Informatik Stunde 15](#15)
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap projekt entschieden.
@@ -96,3 +97,11 @@ Dafür hat er einen Command erstellt der kollektiv eine Nachricht an alle beteil
 
 Sobald die Nachricht, dass das Ziel erreicht wurde angekommen ist wird dem Spieler ermöglicht durch das drücken der gewählten Taste das 2 Level zu betreten.
 Das funktionierte soweit auch, nun war aber das Ziel, immer das Nächste Level betreten zu können, der Command sah jedoch vor, nach dem Erreichen des Ziels immer zum 2. Level zu wechseln, was sich in der Stunde nicht mehr lösen lies.
+
+### <a name="15"></a>Informatik Stunde 15:
+
+Die Lösung für das Problem aus Stunde 14 stellte sich in dieser Stunde als simpel heraus.
+Denn da der Code für das eine Ziel funktionierte um zum 2. Level zu gelangen, war es naheliegend denselben Code für eine weitere Zielsprite zu nehmen, nur dass das nächste Ziel entsprechend für das nächste Level programmiert war.
+So ordnete Yannick ein neues Ziel mit entsprechend angeglichenem Code den einzelnen Leveln zu (zu diesem Zeitpunkt Level 1-3).
+
+
