@@ -107,9 +107,16 @@ So ordnete Yannick ein neues Ziel mit entsprechend angeglichenem Code den einzel
 ![1 ziel pro level](https://user-images.githubusercontent.com/69623479/94909410-670cbb00-04a3-11eb-8ca2-479f4fc7ef0f.PNG)
 
 Da Yannick sich schon zu Hause diese Lösung überlegt hatte war die Umsetzung schnell erreicht.
+
 Die übrige Zeit nutzte er um an einem neuen Element im Spiel zu arbeiten: dem Trampolin.
 Würde man dieses berühren, sollte ein größerer Sprung automatisch ausgeführt werden. 
 Bis auf den Feinschliff in Sachen Effektstärke und implimentierung im Spiel selbst wurde dies auch noch in derselben Stunde erreicht.
 
 ![Anfang Jump and run spiel script pic (1)](https://user-images.githubusercontent.com/69623479/94910469-0aaa9b00-04a5-11eb-872c-f330b15abc20.png)
+
+Zu Hause hat sich Yannick zudem noch mit einer Weiteren Mechanik beschäftigt.
+Von 3 Leben, wie sie auch Malte bei seinen Gegnern hatte, sollten beim herunterfallen von Plattformen eines abgezogen werden, und der Character zurück zum Anfang des Levels zurück gebracht werden.
+Dies ließ sich reibungslos einfügen:
+
+
 
