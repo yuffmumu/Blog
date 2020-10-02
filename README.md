@@ -111,3 +111,5 @@ Die übrige Zeit nutzte er um an einem neuen Element im Spiel zu arbeiten: dem T
 Würde man dieses berühren, sollte ein größerer Sprung automatisch ausgeführt werden. 
 Bis auf den Feinschliff in Sachen Effektstärke und implimentierung im Spiel selbst wurde dies auch noch in derselben Stunde erreicht.
 
+![Anfang Jump and run spiel script pic (1)](https://user-images.githubusercontent.com/69623479/94910469-0aaa9b00-04a5-11eb-872c-f330b15abc20.png)
+
