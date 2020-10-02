@@ -104,4 +104,5 @@ Die Lösung für das Problem aus Stunde 14 stellte sich in dieser Stunde als sim
 Denn da der Code für das eine Ziel funktionierte um zum 2. Level zu gelangen, war es naheliegend denselben Code für eine weitere Zielsprite zu nehmen, nur dass das nächste Ziel entsprechend für das nächste Level programmiert war.
 So ordnete Yannick ein neues Ziel mit entsprechend angeglichenem Code den einzelnen Leveln zu (zu diesem Zeitpunkt Level 1-3).
 
+![1 ziel pro level](https://user-images.githubusercontent.com/69623479/94909410-670cbb00-04a3-11eb-8ca2-479f4fc7ef0f.PNG)
 
