@@ -122,5 +122,6 @@ Dies ließ sich reibungslos einfügen:
 
 zudem wurde noch direkt eine eintsprechend auf die Variable regaierende Graphik eingefügt:
 
+![leben anzeige](https://user-images.githubusercontent.com/69623479/94911297-337f6000-04a6-11eb-9427-29465f80b133.PNG)
 
 
