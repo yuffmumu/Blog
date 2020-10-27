@@ -98,8 +98,10 @@ Dafür hat er einen Command erstellt der kollektiv eine Nachricht an alle beteil
 Sobald die Nachricht, dass das Ziel erreicht wurde angekommen ist wird dem Spieler ermöglicht durch das drücken der gewählten Taste das 2 Level zu betreten.
 Das funktionierte soweit auch, nun war aber das Ziel, immer das Nächste Level betreten zu können, der Command sah jedoch vor, nach dem Erreichen des Ziels immer zum 2. Level zu wechseln, was sich in der Stunde nicht mehr lösen lies.
 
-Malte hat weiter am Schuss gearbeitet und dieses Skript geschrieben: 
+Malte hat weiter am Schuss gearbeitet und dieses Skript geschrieben:
+
 ![Stunde 14 (Schuss)](https://user-images.githubusercontent.com/69623479/97292665-d3cd6800-184b-11eb-8e21-a6d32b0c724f.PNG)
+
 Die Lösung für das Problem letzter Stunde wurde durch das einfügen einer Variable gelöst. Die Variable ist solange 0 wie der Schuss fliegt. Dann kann man durch den Befehl "if key pressed and schuss=1" regulieren ob man schon wieder einen Schuss abfeuern kann.
 
 ### <a name="15"></a>Informatik Stunde 15:
