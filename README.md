@@ -99,6 +99,9 @@ Sobald die Nachricht, dass das Ziel erreicht wurde angekommen ist wird dem Spiel
 Das funktionierte soweit auch, nun war aber das Ziel, immer das Nächste Level betreten zu können, der Command sah jedoch vor, nach dem Erreichen des Ziels immer zum 2. Level zu wechseln, was sich in der Stunde nicht mehr lösen lies.
 
 Malte hat weiter am Schuss gearbeitet und dieses Skript geschrieben: 
+![Stunde 14 (Schuss)](https://user-images.githubusercontent.com/69623479/97292665-d3cd6800-184b-11eb-8e21-a6d32b0c724f.PNG)
+Die Lösung für das Problem letzter Stunde wurde durch das einfügen einer Variable gelöst. Die Variable ist solange 0 wie der Schuss fliegt. Dann kann man durch den Befehl "if key pressed and schuss=1" regulieren ob man schon wieder einen Schuss abfeuern kann.
+
 ### <a name="15"></a>Informatik Stunde 15:
 
 Die Lösung für das Problem aus Stunde 14 stellte sich in dieser Stunde als simpel heraus.
@@ -112,6 +115,8 @@ Da Yannick sich schon zu Hause diese Lösung überlegt hatte war die Umsetzung s
 Die übrige Zeit nutzte er um an einem neuen Element im Spiel zu arbeiten: dem Trampolin.
 Würde man dieses berühren, sollte ein größerer Sprung automatisch ausgeführt werden. 
 Bis auf den Feinschliff in Sachen Effektstärke und implimentierung im Spiel selbst wurde dies auch noch in derselben Stunde erreicht.
+
+Malte hat sich damit beschäftigt Gegner ins Spiel zu implementieren. 
 
 ![Anfang Jump and run spiel script pic (1)](https://user-images.githubusercontent.com/69623479/94910469-0aaa9b00-04a5-11eb-872c-f330b15abc20.png)
 
