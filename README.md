@@ -85,7 +85,7 @@ Ein grober Anfang davon war auch kein Problem, denn eine zusätzliche Sprite mit
 Doch kleine Feinheiten passten noch nicht. 
 So wurde zu erst die Position des nächsten Schusses festgelegt in dem moment wo der erste den Rand berührte. bewegte man sich also weiter stimmten Schuiss und Characterposition nicht mehr überein. Dies lies sich jedoch relativ schnell lösen, indem man den Schuss erst wieder an die Position des Spielcharacters befördert in dem Moment wo er auch tatsächlich abgefeuert wird.
 Ein weiteres und schwereres Problem war, dass wenn man in eine Richtung schoss und noch während der Schuss Flog einen Schuss in die andere Richtung inniziierte. Dies sorgte dafür, dass der Schuss still in der Luft stehen blieb und nicht mehr Funktionierte.
-Dies konnten wir in der 13ten Stunde nicht mehr lösen.
+Dies konnten wir in dieser Stunde nicht mehr lösen.
 
 ### <a name="14"></a>Informatik Stunde 14:
 
@@ -98,6 +98,7 @@ Dafür hat er einen Command erstellt der kollektiv eine Nachricht an alle beteil
 Sobald die Nachricht, dass das Ziel erreicht wurde angekommen ist wird dem Spieler ermöglicht durch das drücken der gewählten Taste das 2 Level zu betreten.
 Das funktionierte soweit auch, nun war aber das Ziel, immer das Nächste Level betreten zu können, der Command sah jedoch vor, nach dem Erreichen des Ziels immer zum 2. Level zu wechseln, was sich in der Stunde nicht mehr lösen lies.
 
+Malte hat weiter am Schuss gearbeitet und dieses Skript geschrieben: 
 ### <a name="15"></a>Informatik Stunde 15:
 
 Die Lösung für das Problem aus Stunde 14 stellte sich in dieser Stunde als simpel heraus.
