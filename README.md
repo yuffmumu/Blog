@@ -132,3 +132,53 @@ zudem wurde noch direkt eine eintsprechend auf die Variable regaierende Graphik 
 
 Malte hat sich damit beschäftigt Gegner ins Spiel zu implementieren. Als erstes...
 ![15  informatik Stunde (Gegner)](https://user-images.githubusercontent.com/69623479/97293348-d7152380-184c-11eb-9c35-ce60f3f984bd.PNG)
+
+### <a name="16-22"></a>Informatik Stunde 16:
+
+Im Zeitraum um die 16. Stunde entschieden wir uns das Spiel nicht zu einem Platformer/J&R zu machen, sondern es als eine Art Brawl-Game weiterzuentwickeln.
+
+Wir erstellten also eine Testumgebung die sehr grob der Struktur des Spiels entsprechen würde:
+
+![testumgebung](https://user-images.githubusercontent.com/69623479/97292436-88b35500-184b-11eb-8eb0-9c4b5769e668.PNG)
+
+Um die Testumgebung vollständig nutzen zu können mussten wir jedoch noch den Code für unsere Blöcke fertigstellen. 
+
+Dies konnte dieses mal auch endlich erreicht werden, indem wir eine Variable als Bedingung für die Bewegungscommands eingefügt haben.
+Außerdem fanden wir noch heraus, dass man in Snap die einzelnen Sprites zusammenkleben konnte. Da unsere individuellen Blöcke jeweils aus 4 Teilen bestehen war dies eine extreme Vereinfachung beim programmieren der Blöcke in der Stage.
+
+![blockbedingungsvariable und neue richtung fürs spiel cleaner](https://user-images.githubusercontent.com/69623479/97292038-0460d200-184b-11eb-9288-b932dc342561.PNG)
+
+Desweiteren erarbeiteten wir ein Konzept zur Klaren weiterführung des Spiels. Dieses umfasste die 2 verschiedenen spielbaren Charactere, die Stages und deren interaktive Elemente und zuletzt noch eine grobe Idee für Items die nur bei evntl noch übriger Zeit implimentiert würden.
+
+
+Snap Programm Konzept
+Stages:
+- Zukunft (Weltraum, Raumschiff)
+- Mittelalter (Marktstände, Burg, Ritter mit Lanze läuft durchs Bild)
+- Unterwelt, Fantasy, Lava, Vulkan
+- Eis-Welt (Schnee, Schlittern, brechende „Eisschollen“)
+- Apokalypse (Zombies, Verlassene eingestürzte Häuser)
+
+Charaktere:
+Alphonzo:
+    • Wird stärker/wütend durch genommenen Schaden
+--> macht mehr Schaden niedrigerer Cooldown auf aktiver Fähigkeit
+-      aktive Fähigkeit: Idee 1: Schlag auf den Boden dann „Erdbeben“ und Feind wird       gestunnt
+- Primär Waffe: Laser Minigun
+- Sekundär: Fette Faust
+	- langsamer
+	- Massiver gepanzerter Cyborg
+	
+	         Gonzales
+	- Dreischussswaffe
+	- kurzer instant teleporter
+	- Messer/Dolch (vllt Backstab)
+	- Maskierte Pflanze oder Affe mit Anzug
+
+(Items:
+    • Leben, Movement boost, Damage Boost…)
+
+Im Rahmen dieses Konzepts begannen wir das graphische Design des Spiels.
+
+Erste concept-pixelarts vom Character "Alphonzo" und einer Mittelalterstage enstanden bis hierhin.
+
