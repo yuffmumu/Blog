@@ -116,8 +116,6 @@ Die übrige Zeit nutzte er um an einem neuen Element im Spiel zu arbeiten: dem T
 Würde man dieses berühren, sollte ein größerer Sprung automatisch ausgeführt werden. 
 Bis auf den Feinschliff in Sachen Effektstärke und implimentierung im Spiel selbst wurde dies auch noch in derselben Stunde erreicht.
 
-Malte hat sich damit beschäftigt Gegner ins Spiel zu implementieren. 
-
 ![Anfang Jump and run spiel script pic (1)](https://user-images.githubusercontent.com/69623479/94910469-0aaa9b00-04a5-11eb-872c-f330b15abc20.png)
 
 Zu Hause hat sich Yannick zudem noch mit einer Weiteren Mechanik beschäftigt.
@@ -130,4 +128,5 @@ zudem wurde noch direkt eine eintsprechend auf die Variable regaierende Graphik 
 
 ![leben anzeige](https://user-images.githubusercontent.com/69623479/94911297-337f6000-04a6-11eb-9427-29465f80b133.PNG)
 
-
+Malte hat sich damit beschäftigt Gegner ins Spiel zu implementieren. 
+![15  informatik Stunde (Gegner)](https://user-images.githubusercontent.com/69623479/97293348-d7152380-184c-11eb-9c35-ce60f3f984bd.PNG)
