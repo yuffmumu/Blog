@@ -130,5 +130,5 @@ zudem wurde noch direkt eine eintsprechend auf die Variable regaierende Graphik 
 
 ![leben anzeige](https://user-images.githubusercontent.com/69623479/94911297-337f6000-04a6-11eb-9427-29465f80b133.PNG)
 
-Malte hat sich damit beschäftigt Gegner ins Spiel zu implementieren. 
+Malte hat sich damit beschäftigt Gegner ins Spiel zu implementieren. Als erstes...
 ![15  informatik Stunde (Gegner)](https://user-images.githubusercontent.com/69623479/97293348-d7152380-184c-11eb-9c35-ce60f3f984bd.PNG)
