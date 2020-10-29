@@ -10,10 +10,10 @@
 [Informatik Stunde 8,9](#8,9)  
 [Informatik Stunde 10](#10)  
 [Informatik Stunde 11](#11)  
-[Informatik Stunde 12](#12)
-[Informatik Stunde 13](#13)
-[Informatik Stunde 14](#14)
-[Informatik Stunde 15](#15)
+[Informatik Stunde 12](#12)  
+[Informatik Stunde 13](#13)  
+[Informatik Stunde 14](#14)  
+[Informatik Stunde 15](#15)  
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap projekt entschieden.
@@ -130,10 +130,11 @@ zudem wurde noch direkt eine eintsprechend auf die Variable regaierende Graphik 
 
 ![leben anzeige](https://user-images.githubusercontent.com/69623479/94911297-337f6000-04a6-11eb-9427-29465f80b133.PNG)
 
-Malte hat sich damit beschäftigt Gegner ins Spiel zu implementieren. Als erstes...
+Malte hat sich damit beschäftigt Gegner ins Spiel zu implementieren. Als erstes fügte Malte eine ähnliche Mechanik wie beim Charakter für die Leben für die insgesamt drei Gegner ein. So starteten sie bei 2 Leben und verloren immer wenn sie den Schuss berührten wurden 1 Leben. Bei 0 Leben haben wir sie mit dem "hide" Befehl verschwinden lassen. Das Problem war, dass die Variable direkt auf 0 gesetzt wurde, da mit einem Schuss mehrere Leben abgezogen werden konnte. Dies hat Malte dann mit einer Variabel gelöst, die 0,5 Sekunden 0 ist und dann erst 1. Dann haben wir die Bedingung, dass das zweite Leben erst abgezogen werden kann wenn diese Variable 1 ist eingefügt. Dann wollte Malte einfügen, dass die Gegner nachdem sie ein Leben verloren haben "wütend" werden. Dass heißt sie ändern ihr außssehen zu einer wütenderen Version und werden schneller. Dies wurde mit einem eigenen Skript umgestzt. Das Endergebnis dieser Stunde siehjt wie folgt aus:
+
 ![15  informatik Stunde (Gegner)](https://user-images.githubusercontent.com/69623479/97293348-d7152380-184c-11eb-9c35-ce60f3f984bd.PNG)
 
-### <a name="16-22"></a>Informatik Stunde 16:
+### <a name="16"></a>Informatik Stunde 16-22:
 
 Im Zeitraum um die 16. Stunde entschieden wir uns das Spiel nicht zu einem Platformer/J&R zu machen, sondern es als eine Art Brawl-Game weiterzuentwickeln.
 
@@ -182,3 +183,10 @@ Im Rahmen dieses Konzepts begannen wir das graphische Design des Spiels.
 
 Erste concept-pixelarts vom Character "Alphonzo" und einer Mittelalterstage enstanden bis hierhin.
 
+### <a name="23"></a>Informatik Stunde 23:
+
+Wir haben die ganze Stunde den Blog geschrieben
+
+### <a name="23"></a>Informatik Stunde 24:
+
+Nachdem wir unsere Ideen ausgetauscht haben und wir die nächsten Schritte geplant haben, ...
