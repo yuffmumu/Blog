@@ -187,6 +187,12 @@ Erste concept-pixelarts vom Character "Alphonzo" und einer Mittelalterstage enst
 
 Wir haben die ganze Stunde den Blog geschrieben
 
-### <a name="23"></a>Informatik Stunde 24:
+### <a name="24"></a>Informatik Stunde 24:
 
 Nachdem wir unsere Ideen ausgetauscht haben und wir die nächsten Schritte geplant haben, hat Malte Blog geschrieben und Yannick hat sich mit Gonzales Teleport beschäftigt. Das Hauptpproblem dieser Stunde war, das man in die Blöcke reinglitchen konnte, dies wurde zu Lösen versucht, in dem man zusätzliche Sprites im inneren Platzierte, die ...
+
+### <a name="25"></a>Informatik Stunde 25:
+
+Heute hat Yannick den Teleport vom Character Gonzales fertiggestellt. Das Problem, dass der Character wenn er nur den gegen Block sprang und Sich nicht teleportiert hat, dennoch aber zur Seite teleportiert wurde hat er gelößt, indem er eine Variable als bedingung für die Teleportation beim berühren des Elements gesetzt hat, welche nur in einem Extrem kurzen Zeitraum nach dem teleportieren zutrifft, sodass man nur aus dem Block teleportiert wird wenn man vorher die Fähigkeit anwendet.
+Darüber hinaus wurde noch eine Variable für die Funktion des Cooldowns der Fähigkeit integriert.
+Der code für den Teleport sah dann, vollständig wie folgt aus:
