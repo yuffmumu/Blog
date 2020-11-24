@@ -196,3 +196,45 @@ Nachdem wir unsere Ideen ausgetauscht haben und wir die nächsten Schritte gepla
 Heute hat Yannick den Teleport vom Character Gonzales fertiggestellt. Das Problem, dass der Character wenn er nur den gegen Block sprang und Sich nicht teleportiert hat, dennoch aber zur Seite teleportiert wurde hat er gelößt, indem er eine Variable als bedingung für die Teleportation beim berühren des Elements gesetzt hat, welche nur in einem Extrem kurzen Zeitraum nach dem teleportieren zutrifft, sodass man nur aus dem Block teleportiert wird wenn man vorher die Fähigkeit anwendet.
 Darüber hinaus wurde noch eine Variable für die Funktion des Cooldowns der Fähigkeit integriert.
 Der code für den Teleport sah dann, vollständig wie folgt aus:
+
+![teleport](https://user-images.githubusercontent.com/69623479/100083813-3a917180-2e4a-11eb-9a45-5b4c72e291b9.PNG)
+
+### <a name="26"></a>Informatik Stunde 26-?:
+
+Yannick nahm sich nun den Startscreen mit allen gewünschten Features vor.
+Es sollte ein Startscreen zum allgemeinen Starten des Spiels, sowie Auswahlscreens für sowohl Charactere als auch Stages entstehen.
+Dabei entstand in der Stunde und zu Hause ein sehr großer Codeblock, da Yannick dieses mal alle Features in einen einzelnen Codeblock eingearbeitet hatte.
+Vieles funktionierte direkt jedoch taten sich 2 Probleme auf. 1: Die an sich funktionierenden Commands reagierten nicht immer direkt. Drückte man also die taste um zum nächsten screen zu kommen reagierte das Programm manchmal direkt manchmal nicht. 
+Es stellte sich heraus das dies an der Animationsschleife der auswahlscreens lag. Der Command ließ sich erst stoppen wenn die Animation durchgelaufen war. Hielt man die Taste zum weiterkommen gedrückt (für maximal 0.8 sekunden, da dies die länge der Animation ist) funktionierte alles wie geplant. Das war in unserem ramen zufriedenstellend da es die Funktionalität in keiner Weise einschränkt solang man weiß, dass man gedrückt halten muss bis man weitergekommen ist.
+Hier ein Beispiel für eine Solche animation welche erst durchlaufen muss (im gesammten screen gibt es davon natürlich viele):
+
+![startscreen gedrückt halten beispiel](https://user-images.githubusercontent.com/69623479/100083808-37968100-2e4a-11eb-90df-4b9324f18e4d.PNG)
+
+2: Wurde der Startscreen beendet so ignorierte das programm den Command zu einem neutralen screen überzugehen und behielt stattdessen den zueltzt vorhandenen Auswahlscreen bei.
+
+Dies sah so aus: 
+![startscreen fertig aber bild nicht neutral bug](https://user-images.githubusercontent.com/69623479/100084499-2437e580-2e4b-11eb-9d8d-24bbd7d3ef6f.PNG)
+
+Wobei es eigentlich folgendermaßen aussehen sollte: 
+![startscreen so solls eigentlich sein](https://user-images.githubusercontent.com/69623479/100084506-25691280-2e4b-11eb-8d7b-754df495edeb.PNG)
+
+Dieses Problem beschäftigte Yannick über einen längren Zeitraum da er weder einen Fehler oder eine unstimmigkeit im code, noch ein Workaround finden konnte.
+Ein Gedanke war z.B. das Neutralisieren des Hintergrunds mit einem "wait X seconds" command zu verzögern um wieder zu garantieren, dass die Animation des Auswahlscreens durchlaufen kann, da dies ja wie beschrieben zuvor schon Probleme gebracht hatee, jedoch blieb auch dieser, sowie andere Versuche erfolglos.
+
+Zuletzt löste sich sich das Problem als Yannick die individuellen Teile des Startscreens auseinander nahm. Sobald der finale Command welcher für den Übergang von Startscreen zum tatsächlichen Spiel zuständig war vom großen Block getrennt wurde funktionierte alles einwandfrei. 
+Weshalb sich das Programm so verhielt blieb uns Unerklärlich, da inhaltlich beim Command nichts verändert wurde, sondern er lediglich in einen eigenen Block gebracht wurde.
+Doch das Problem war gelöst und somit war der Startscreen insgesamt abgeschlossen.
+
+
+Zu Hause beschäftigten wir uns desweiteren Regelmäßig mit dem Design des Spiels. Die zu Designenden Elemente wurden aufgeteilt.
+Malte sollte die Stages designen und Yannick die Charactere inklusive Animationen.
+Der Startscreen blieb in der Aufteilung bis aufs weitere aus, da die Aufwendigkeit desselben sich leicht auf die übrige Zeit vor Abgabe anpassen lässt.
+Dies blieb neben dem Programmieren bis auf weiteres ein Parralel laufender Prozess.
+
+
+Nun waren alle absoulut notwendigen Elemente integriert.
+Wir begannen also mit etwas, dass wir uns schon eine Weile vorgenommen hatten. 
+Wir wollten das Programm neu aufsetzen, da im entstehungsprozess aus einigen gründen sich überall unschönheiten zeigten. 
+Sei es ein obsoleter Programmschnipsel für ein inzwischen nicht mehr genutztes Feature oder ein unkompakter Programmierstiel.
+Außerdem befanden sich einzelne Features in unterschiedlichen Speicherständen da Malte und Yannick oft gleichzeitig an unterschiedlichen Features arbeiteten.
+Mit dem neuen Aufsetzen sollte also alles sauber zusammengefügt werden.
