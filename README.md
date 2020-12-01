@@ -199,8 +199,12 @@ Der code für den Teleport sah dann, vollständig wie folgt aus:
 
 ![teleport](https://user-images.githubusercontent.com/69623479/100083813-3a917180-2e4a-11eb-9a45-5b4c72e291b9.PNG)
 
-Malte hat sich mit einer Fähigkeit von Gonzales beschäftigt. Dem Slam. In die if schleife wurde als Bedingung if key s is pressed and not touching block oben and dash active= 0 gesetzt. D.h Man kann den Slam erst ausführen wenn man die Taste s drückt, man nicht den block oben berührt und der dash nicht gerade durchgeführt wird. Dann wird eine Schleife aktiviert, die solange bis man den block oben wieder berührt den Charakter mit -20 nach unten bewegt. Da man oft in den Boden glitchte wenn man den Slam ausführt, hab ich einen Befehl implementiert, der wenn man den Slam ausführt, am Ende prüft, ob man in den Bock reingeglitcht ist und wenn dies der Fall ist den y wert um 20 erhöht. Um zu vermeiden, dass man während man den Slam ausführt den Slam erneut ausführen kann, wird die Variable dash active 1 gestzt und am Ende wieder 0, da in der if schleife die Bedingung dash active = 0 gestzt wurde.
+Malte hat sich mit einer Fähigkeit von Gonzales beschäftigt. Dem Slam. In die if schleife wurde als Bedingung if key s is pressed and not touching block oben and dash active= 0 gesetzt. D.h Man kann den Slam erst ausführen wenn man die Taste s drückt, man nicht den block oben berührt und der dash nicht gerade durchgeführt wird. Dann wird eine Schleife aktiviert, die solange bis man den block oben wieder berührt den Charakter mit -20 nach unten bewegt. Da man oft in den Boden glitchte wenn man den Slam ausführt, hab ich einen Befehl implementiert, der wenn man den Slam ausführt, am Ende prüft, ob man in den Bock reingeglitcht ist und wenn dies der Fall ist den y wert um 20 erhöht. Um zu vermeiden, dass man während man den Slam ausführt den Slam erneut ausführen kann, wird die Variable dash active 1 gestzt und am Ende wieder 0, da in der if schleife die Bedingung dash active = 0 gestzt wurde. Der endgültige Skript sah dann so aus:
 
+![25  informatik Stunde (Slam)](https://user-images.githubusercontent.com/69623479/100733300-42af5b00-33ce-11eb-881b-eaef8a858011.PNG)
+
+Da wir einen Rückstoß simuliern wollten, fügten wir beim 2. Charakter diesen Skript ein:
+![25  informatik Stunde (Slam 2)](https://user-images.githubusercontent.com/69623479/100733297-4216c480-33ce-11eb-9171-409cac5ba0a7.PNG)
 ### <a name="26"></a>Informatik Stunde 26-?:
 
 Yannick nahm sich nun den Startscreen mit allen gewünschten Features vor.
