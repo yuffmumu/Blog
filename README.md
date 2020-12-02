@@ -14,6 +14,11 @@
 [Informatik Stunde 13](#13)  
 [Informatik Stunde 14](#14)  
 [Informatik Stunde 15](#15)  
+[Informatik Stunde 16-22](#16)  
+[Informatik Stunde 23](#23) 
+[Informatik Stunde 24](#24)  
+[Informatik Stunde 25](#25) 
+[Informatik Stunde 26](#26)  
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap projekt entschieden.
@@ -205,6 +210,7 @@ Malte hat sich mit einer Fähigkeit von Gonzales beschäftigt. Dem Slam. In die 
 
 Da wir einen Rückstoß simuliern wollten, fügten wir beim 2. Charakter diesen Skript ein:
 ![25  informatik Stunde (Slam 2)](https://user-images.githubusercontent.com/69623479/100733297-4216c480-33ce-11eb-9171-409cac5ba0a7.PNG)
+
 ### <a name="26"></a>Informatik Stunde 26-?:
 
 Yannick nahm sich nun den Startscreen mit allen gewünschten Features vor.
