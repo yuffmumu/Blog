@@ -56,9 +56,10 @@ Malte beschäftigte sich mit dem Kreieren eines "Power-Blocks", welcher Die Spri
 ![7  informatik Stunde (Mumu)](https://user-images.githubusercontent.com/69623479/92225454-82d07180-eea3-11ea-818d-b88912a91c9e.PNG)
 
 ### <a name="8,9"></a>Informatik Stunde 8,9:
-In den letzten beiden Stunden haben wir uns ausschließlich mit dem Programmieren von schwebenden Plattformen, bzw. dem richtigen physikalischen Verhalten der Spielfigur den Blöcken gegenüber beschäftigt. Das große und immernoch ungelöste Problem, die 4 Seiten der Blöcke für unsere Spielfigur undurchlässig zu machen, war der Kern unserer Überlegungen. Wir konnten auf den Blöcken stehen, indem wir unser "Schwerkraft-Skript" mit dem if-befehl "if not touching [schwebende Plattform]" eingegrenzt haben. Das wir nicht von unten durch die Plattform durchspringen konnten haben wir damit gelöst das Sprung Skript mit dem if-Befehl "if touching [schwebende PLattform] stop this skript. Um das durchdringen des Blocks von der Seite zu verhindern haben wir einen Flag erstellt. Wir haben einen if Befehl festgelegt, dass wenn der Block berührt wird "touching Block" = 1 ist und sonst = 0. Dann haben wir die Bedingung, dass wenn "if touching Block" = 1 das Skript stoppt, in unseren Bewegungsskript eingebaut: 
+In den letzten beiden Stunden haben wir uns ausschließlich mit dem Programmieren von schwebenden Plattformen, bzw. dem richtigen physikalischen Verhalten der Spielfigur den Blöcken gegenüber beschäftigt. Das große und immernoch ungelöste Problem, die 4 Seiten der Blöcke für unsere Spielfigur undurchlässig zu machen, war der Kern unserer Überlegungen. Wir konnten auf den Blöcken stehen, indem wir unser "Schwerkraft-Skript" mit dem if-befehl "if not touching [schwebende Plattform]" eingegrenzt haben. Um zu verhindern, dass man von unten durch die Plattform springen konnte, haben wir ein Skript erstellt, welches ------------- Dass wir nicht von unten durch die Plattform durchspringen konnten haben wir damit gelöst, das Sprung Skript mit dem if-Befehl "if touching [schwebende PLattform]:stop this script------------. Um das durchdringen des Blocks von der Seite zu verhindern haben wir einen Flag erstellt. Wir haben einen if Befehl festgelegt, dass wenn der Block berührt wird "touching Block" = 1 ist und sonst = 0. Dann haben wir die Bedingung, dass wenn "if touching Block" = 1 das Skript stoppt, in unseren Bewegungsskript eingebaut: 
 ![8,9 informatik Stunde (Flag)](https://user-images.githubusercontent.com/69623479/93868945-733a9080-fccb-11ea-92bd-01ee783e56f5.PNG)
- Das Probelm ist jetzt, dass die Spielfigur sich auch nicht nach rechts und links bewegen kann wenn wir von oben oder unten den Block berühren. Dann haben wir überlegt mann müsse einfach die Seiten links und rechts von den oben und unten unterscheiden können. Wir haben dann erstmal oben eine unsichtbare 2. Plattform draufbepackt jedoch ist die Spielfigur immernoch durchgeglitscht und konnte sich dann nicht bwewegen. Mann hätte also die unsichtbare Plattform so groß machen müssen, dass die Spielfigur irgendwo in der Luft schwebt.
+ Das Probelm war nun, dass die Spielfigur sich auch nicht nach rechts und links bewegen konnte wenn wir von oben oder unten den Block berühren. Dann überlegten wir, mann müsse einfach die Seiten links und rechts von den oben und unten unterscheiden können. Wir legten eine unsichtbare 2. Plattform drauf, jedoch glitchte die Spielfigur nach wie vor durch die Plattform und konnte sich dann nicht bewewegen. Man hätte also die unsichtbare Plattform so groß machen müssen, dass die Spielfigur irgendwo in der Luft schwebt.
+Da wir nicht zu viel Zeit auf einmal mit dem Block verbringen wollten, stellten wir dieses Problem vorerst zurück und nahmen uns vorerst andere Dinge vor.
 
 ### <a name="10"></a>Informatik Stunde 10:
 Als nächstes sollte sich der Character nicht als statische Graphik bewegen, sondern in einer Animation.
@@ -127,16 +128,16 @@ Bis auf den Feinschliff in Sachen Effektstärke und implimentierung im Spiel sel
 ![Anfang Jump and run spiel script pic (1)](https://user-images.githubusercontent.com/69623479/94910469-0aaa9b00-04a5-11eb-872c-f330b15abc20.png)
 
 Zu Hause hat sich Yannick zudem noch mit einer weiteren Mechanik beschäftigt.
-Von 3 Leben, wie sie auch Malte bei seinen Gegnern hatte (Beschreibung der Gegner folgt im nächsten Absatz), sollten beim Herunterfallen von Plattformen eines abgezogen werden und der Character zurück zum Anfang des Levels gebracht werden.
+Von 3 Leben, sollten beim Herunterfallen von Plattformen eines abgezogen werden und der Character zurück zum Anfang des Levels gebracht werden.
 Dies ließ sich reibungslos einfügen:
 
 ![Anfang Jump and run spiel script pic (1)](https://user-images.githubusercontent.com/69623479/94911146-fdda7700-04a5-11eb-9771-310b6a782ed3.png)
-
-zudem wurde noch direkt eine eintsprechend auf die Variable regaierende Graphik eingefügt:
+ Zudem wurde noch direkt eine entsprechend auf die Variable reagierende Graphik eingefügt:
 
 ![leben anzeige](https://user-images.githubusercontent.com/69623479/94911297-337f6000-04a6-11eb-9427-29465f80b133.PNG)
 
---------------Malte hat sich damit beschäftigt Gegner ins Spiel zu implementieren. Als erstes fügte Malte eine ähnliche Mechanik wie beim Charakter für die Leben für die insgesamt drei Gegner ein. So starteten sie bei 2 Leben und verloren immer wenn sie den Schuss berührten 1 Leben. Bei 0 Leben haben wir sie mit dem "hide" Befehl verschwinden lassen. Das Problem war, dass die Variable direkt auf 0 gesetzt wurde, da mit einem Schuss mehrere Leben abgezogen werden konnte. Dies hat Malte dann mit einer Variabel gelöst, die 0,5 Sekunden 0 ist und dann erst 1. Dann haben wir die Bedingung, dass das zweite Leben erst abgezogen werden kann wenn diese Variable 1 ist eingefügt. Dann wollte Malte einfügen, dass die Gegner nachdem sie ein Leben verloren haben "wütend" werden. Dass heißt sie ändern ihr außssehen zu einer wütenderen Version und werden schneller. Dies wurde mit einem eigenen Skript umgestzt. Das Endergebnis dieser Stunde siehjt wie folgt aus:------------------
+Malte hat sich damit beschäftigt Gegner ins Spiel zu implementieren. Als erstes fügte er eine ähnliche Mechanik wie beim Charakter für die Leben, für die insgesamt drei Gegner ein. So starteten sie bei 2 Leben und verloren immer wenn sie den Schuss berührten 1 Leben. Bei 0 Leben ließ Malte sie mit dem "hide" Befehl verschwinden . Das Problem war, dass die Variable für die Leben bei einem Treffer direkt auf 0 gesetzt wurde, da mit einem Schuss mehrere Leben abgezogen werden konnte. Dies hat Malte dann mit einer Variable gelöst, die 0,5 Sekunden 0 ist und dann erst 1. Dann hat er die Bedingung, dass das zweite Leben erst abgezogen werden kann wenn diese Variable 1 ist eingefügt. 
+Zuletzt wollte Malte einfügen, dass die Gegner nachdem sie ein Leben verloren haben "wütend" werden. Dass hieße sie ändern ihr Aussehen und bewegen sich schneller. Dies wurde mit einem eigenen Skript umgesetzt. Das Endergebnis dieser Stunde sah wie folgt aus:
 
 ![15  informatik Stunde (Gegner)](https://user-images.githubusercontent.com/69623479/97293348-d7152380-184c-11eb-9c35-ce60f3f984bd.PNG)
 
@@ -148,15 +149,15 @@ Wir erstellten also eine Testumgebung die sehr grob der Struktur des Spiels ents
 
 ![testumgebung](https://user-images.githubusercontent.com/69623479/97292436-88b35500-184b-11eb-8eb0-9c4b5769e668.PNG)
 
-Um die Testumgebung vollständig nutzen zu können mussten wir jedoch noch den Code für unsere Blöcke fertigstellen. 
+Um die Testumgebung vollständig nutzen zu können mussten wir jedoch noch den Code für unsere Blöcke fertigstellen (Das ungelöste Problem von Stunde 8,9). 
 
 Dies konnte dieses mal auch endlich erreicht werden, indem wir eine Variable als Bedingung für die Bewegungscommands eingefügt haben.
-Außerdem fanden wir noch heraus, dass man in Snap die einzelnen Sprites zusammenkleben konnte. Da unsere individuellen Blöcke jeweils aus 4 Teilen bestehen war dies eine extreme Vereinfachung beim programmieren der Blöcke in der Stage.
+Außerdem fanden wir noch heraus, dass man in Snap die einzelnen Sprites zusammenkleben konnte. Da unsere individuellen Blöcke jeweils aus 4 Teilen bestehen war dies eine extreme Vereinfachung beim Programmieren der Blöcke in der Stage.
 
 ![blockbedingungsvariable und neue richtung fürs spiel cleaner](https://user-images.githubusercontent.com/69623479/97292038-0460d200-184b-11eb-9288-b932dc342561.PNG)
 
-Desweiteren erarbeiteten wir ein Konzept zur Klaren weiterführung des Spiels. Dieses umfasste die 2 verschiedenen spielbaren Charactere, die Stages und deren interaktive Elemente und zuletzt noch eine grobe Idee für Items die nur bei evntl noch übriger Zeit implimentiert würden.
-
+Desweiteren erarbeiteten wir ein Konzept zur klaren Weiterführung des Spiels. Dieses umfasste die 2 verschiedenen spielbaren Charactere, die Stages und deren interaktive Elemente und zuletzt noch eine grobe Idee für Items die nur bei eventuell noch übriger Zeit implimentiert würden.
+(Das Konzept mit allen Ideen haben wir an dieser Stelle eingefügt)
 
 Snap Programm Konzept
 Stages:
@@ -170,13 +171,13 @@ Charaktere:
 Alphonzo:
     • Wird stärker/wütend durch genommenen Schaden
 --> macht mehr Schaden niedrigerer Cooldown auf aktiver Fähigkeit
--      aktive Fähigkeit: Idee 1: Schlag auf den Boden dann „Erdbeben“ und Feind wird       gestunnt
+-      aktive Fähigkeit: Idee 1: Schlag auf den Boden dann „Erdbeben“ und Feind wird gestunnt
 - Primär Waffe: Laser Minigun
 - Sekundär: Fette Faust
 	- langsamer
 	- Massiver gepanzerter Cyborg
 	
-	         Gonzales
+Gonzales:
 	- Dreischussswaffe
 	- kurzer instant teleporter
 	- Messer/Dolch (vllt Backstab)
@@ -185,9 +186,11 @@ Alphonzo:
 (Items:
     • Leben, Movement boost, Damage Boost…)
 
+
 Im Rahmen dieses Konzepts begannen wir das graphische Design des Spiels.
 
 Erste concept-pixelarts vom Character "Alphonzo" und einer Mittelalterstage enstanden bis hierhin.
+
 
 ### <a name="23"></a>Informatik Stunde 23:
 
