@@ -189,8 +189,9 @@ Gonzales:
 
 Im Rahmen dieses Konzepts begannen wir das graphische Design des Spiels.
 
-Erste concept-pixelarts vom Character "Alphonzo" und einer Mittelalterstage enstanden bis hierhin.
+Erste concept-pixelarts vom Character "Alphonzo" enstanden bis hierhin.
 
+![Alphonzo konzept 1](https://user-images.githubusercontent.com/69623479/101027186-12a3bb80-3578-11eb-992f-aebb3ec3fa8e.png)
 
 ### <a name="23"></a>Informatik Stunde 23:
 
@@ -198,59 +199,69 @@ Wir haben die ganze Stunde den Blog geschrieben
 
 ### <a name="24"></a>Informatik Stunde 24:
 
-Nachdem wir unsere Ideen ausgetauscht haben und wir die nächsten Schritte geplant haben, hat Malte Blog geschrieben und Yannick hat sich mit Gonzales Teleport beschäftigt. Das Hauptpproblem dieser Stunde war, das man in die Blöcke reinglitchen konnte, dies wurde zu Lösen versucht, in dem man zusätzliche Sprites im inneren Platzierte, die ...
+Nachdem wir unsere Ideen ausgetauscht haben und wir die nächsten Schritte geplant haben, hat Malte Blog geschrieben und Yannick hat sich mit Gonzales Teleport beschäftigt. Das Hauptpproblem in dieser Stunde war, dass man sich in die Blöcke der Stage hinein teleportieren konnte. Dies hat Yannick gelöst indem er einen "anti-teleportations-marker" in den Blöcken platziert hat. Berührte man diesen Marker wurde man automatisch sofort außerhalb des Blockes gesetzt. Teleportierte man sich also nun in den Block und somit auf den Marker, wurde man automatisch sofort an die Richtige Stelle, links oder rechts vom Block, gesetzt. Dies funktionierte soweit gut, jedoch hatte das System einen Schönheitsfehler, nämlich dass man sobald man von unten an den Block heransprang, aus einem Unerklärlichen Grund den Marker zu berühren schien und somit auch wenn man sich nicht in den Block Teleportiert hatte, sondern eben nur dagegen Sprang zur Seite gesetzt wurde.
 
 ### <a name="25"></a>Informatik Stunde 25:
 
-Heute hat Yannick den Teleport vom Character Gonzales fertiggestellt. Das Problem, dass der Character wenn er nur den gegen Block sprang und Sich nicht teleportiert hat, dennoch aber zur Seite teleportiert wurde hat er gelößt, indem er eine Variable als bedingung für die Teleportation beim berühren des Elements gesetzt hat, welche nur in einem Extrem kurzen Zeitraum nach dem teleportieren zutrifft, sodass man nur aus dem Block teleportiert wird wenn man vorher die Fähigkeit anwendet.
+Heute hat Yannick den Teleport vom Character Gonzales fertiggestellt. Das Problem, dass der Character wenn er nur gegen Block sprang , dennoch aber zur Seite teleportiert wurde, hat er gelößt, indem er eine Flag gesetzt hat, welche dafür sorgte, dass die Eigenschaft des "anti-teleportations-markers" nur dann aktiv war, wenn der Teleport auch tatsächlich genutzt wurde. 
 Darüber hinaus wurde noch eine Variable für die Funktion des Cooldowns der Fähigkeit integriert.
 Der code für den Teleport sah dann, vollständig wie folgt aus:
 
 ![teleport](https://user-images.githubusercontent.com/69623479/100083813-3a917180-2e4a-11eb-9a45-5b4c72e291b9.PNG)
 
-Malte hat sich mit einer Fähigkeit von Gonzales beschäftigt. Dem Slam. In die if schleife wurde als Bedingung if key s is pressed and not touching block oben and dash active= 0 gesetzt. D.h Man kann den Slam erst ausführen wenn man die Taste s drückt, man nicht den block oben berührt und der dash nicht gerade durchgeführt wird. Dann wird eine Schleife aktiviert, die solange bis man den block oben wieder berührt den Charakter mit -20 nach unten bewegt. Da man oft in den Boden glitchte wenn man den Slam ausführt, hab ich einen Befehl implementiert, der wenn man den Slam ausführt, am Ende prüft, ob man in den Bock reingeglitcht ist und wenn dies der Fall ist den y wert um 20 erhöht. Um zu vermeiden, dass man während man den Slam ausführt den Slam erneut ausführen kann, wird die Variable dash active 1 gestzt und am Ende wieder 0, da in der if schleife die Bedingung dash active = 0 gestzt wurde. Der endgültige Skript sah dann so aus:
+Malte hat sich mit der Fähigkeit von Alphonzo beschäftigt: dem Slam. In die if schleife wurde als Bedingung "if key s is pressed and not touching block oben and dash active= 0" gesetzt. D.h man kann den Slam erst ausführen, wenn man die Taste "s" drückt, man nicht den Block oben berührt und der "dash" nicht gerade durchgeführt wird. Dann wird eine Schleife aktiviert, die solange bis man den block oben wieder berührt den Charakter mit -20 nach unten bewegt.
+Da man oft in den Boden glitchte, wenn man den Slam ausführt, hat Malte einen Befehl implimentiert, der wenn man den Slam ausführt, am Ende prüft, ob man in den Bock reingeglitcht ist und wenn dies der Fall ist den y wert um 20 erhöht. Um zu vermeiden, dass man während man den Slam ausführt den Slam erneut ausführen kann, wird die Variable "dash active"= 1 gestzt und am Ende wieder =0, da in der if schleife die Bedingung dash active = 0 gesetzt wurde. Das endgültige Skript sah dann so aus:
 
 ![25  informatik Stunde (Slam)](https://user-images.githubusercontent.com/69623479/100733300-42af5b00-33ce-11eb-881b-eaef8a858011.PNG)
 
-Da wir einen Rückstoß simuliern wollten, fügten wir beim 2. Charakter diesen Skript ein:
+Da wir einen Rückstoß simulieren wollten um das Treffen des Slams deutlicher und realistischer zu machen, fügte Malte dieses Skript ein:
 ![25  informatik Stunde (Slam 2)](https://user-images.githubusercontent.com/69623479/100733297-4216c480-33ce-11eb-9171-409cac5ba0a7.PNG)
 
-### <a name="26"></a>Informatik Stunde 26-?:
+### <a name="26"></a>Informatik Stunde 26-30:
 
-Yannick nahm sich nun den Startscreen mit allen gewünschten Features vor.
+Yannick nahm sich nun einen Startscreen mit allen gewünschten Features vor.
 Es sollte ein Startscreen zum allgemeinen Starten des Spiels, sowie Auswahlscreens für sowohl Charactere als auch Stages entstehen.
-Dabei entstand in der Stunde und zu Hause ein sehr großer Codeblock, da Yannick dieses mal alle Features in einen einzelnen Codeblock eingearbeitet hatte.
-Vieles funktionierte direkt jedoch taten sich 2 Probleme auf. 1: Die an sich funktionierenden Commands reagierten nicht immer direkt. Drückte man also die taste um zum nächsten screen zu kommen reagierte das Programm manchmal direkt manchmal nicht. 
-Es stellte sich heraus das dies an der Animationsschleife der auswahlscreens lag. Der Command ließ sich erst stoppen wenn die Animation durchgelaufen war. Hielt man die Taste zum weiterkommen gedrückt (für maximal 0.8 sekunden, da dies die länge der Animation ist) funktionierte alles wie geplant. Das war in unserem ramen zufriedenstellend da es die Funktionalität in keiner Weise einschränkt solang man weiß, dass man gedrückt halten muss bis man weitergekommen ist.
-Hier ein Beispiel für eine Solche animation welche erst durchlaufen muss (im gesammten screen gibt es davon natürlich viele):
+Dabei entstand in der Stunde 26 und zu Hause ein sehr großer Codeblock, da Yannick dieses mal alle Features in einen einzelnen Codeblock eingearbeitet hatte.
+Vieles funktionierte direkt jedoch taten sich 2 Probleme auf.
+1: Die an sich funktionierenden Commands reagierten nicht immer direkt. Drückte man also die Taste um zum nächsten screen zu kommen reagierte das Programm manchmal direkt manchmal nicht. 
+Es stellte sich heraus das dies an der Animationsschleife der Auswahlscreens lag. Der Command ließ sich erst stoppen wenn die Animation durchgelaufen war. Hielt man die Taste zum Weiterkommen gedrückt (für maximal 0.8 sekunden, da dies die länge der Animation ist) funktionierte alles wie geplant. Das war in unserem Ramen zufriedenstellend, da es die Funktionalität in keiner Weise einschränkt, solang man weiß, dass man gedrückt halten muss, bis man weitergekommen ist.
+
+Hier ein Beispiel für eine Solche Animation welche erst durchlaufen muss (insgesamt gibt es davon natürlich viele):
 
 ![startscreen gedrückt halten beispiel](https://user-images.githubusercontent.com/69623479/100083808-37968100-2e4a-11eb-90df-4b9324f18e4d.PNG)
 
-2: Wurde der Startscreen beendet so ignorierte das programm den Command zu einem neutralen screen überzugehen und behielt stattdessen den zueltzt vorhandenen Auswahlscreen bei.
+2: Wurde der Startscreen beendet so ignorierte das Programm den Command welcher dafür sorgen sollte zu einem neutralen screen überzugehen und behielt stattdessen den zuletzt vorhandenen Auswahlscreen bei.
 
 Dies sah so aus: 
+
 ![startscreen fertig aber bild nicht neutral bug](https://user-images.githubusercontent.com/69623479/100084499-2437e580-2e4b-11eb-9d8d-24bbd7d3ef6f.PNG)
 
 Wobei es eigentlich folgendermaßen aussehen sollte: 
+
 ![startscreen so solls eigentlich sein](https://user-images.githubusercontent.com/69623479/100084506-25691280-2e4b-11eb-8d7b-754df495edeb.PNG)
 
-Dieses Problem beschäftigte Yannick über einen längren Zeitraum da er weder einen Fehler oder eine unstimmigkeit im code, noch ein Workaround finden konnte.
-Ein Gedanke war z.B. das Neutralisieren des Hintergrunds mit einem "wait X seconds" command zu verzögern um wieder zu garantieren, dass die Animation des Auswahlscreens durchlaufen kann, da dies ja wie beschrieben zuvor schon Probleme gebracht hatee, jedoch blieb auch dieser, sowie andere Versuche erfolglos.
+Dieses Problem beschäftigte Yannick über einen längren Zeitraum da er weder einen Fehler oder eine Unstimmigkeit im code, noch ein "workaround" finden konnte.
+Ein Gedanke war z.B. das Neutralisieren des Hintergrunds mit einem "wait X seconds" command zu verzögern um wieder zu garantieren, dass die Animation des Auswahlscreens durchlaufen kann, da dies ja wie beschrieben zuvor schon Probleme bereitet hatte, jedoch blieb auch dieser, sowie andere Versuche erfolglos.
 
 Zuletzt löste sich sich das Problem als Yannick die individuellen Teile des Startscreens auseinander nahm. Sobald der finale Command welcher für den Übergang von Startscreen zum tatsächlichen Spiel zuständig war vom großen Block getrennt wurde funktionierte alles einwandfrei. 
 Weshalb sich das Programm so verhielt blieb uns Unerklärlich, da inhaltlich beim Command nichts verändert wurde, sondern er lediglich in einen eigenen Block gebracht wurde.
-Doch das Problem war gelöst und somit war der Startscreen insgesamt abgeschlossen.
-
+Doch das Problem war gelöst und der Startscreen somit insgesamt abgeschlossen.
 
 Zu Hause beschäftigten wir uns desweiteren Regelmäßig mit dem Design des Spiels. Die zu Designenden Elemente wurden aufgeteilt.
 Malte sollte die Stages designen und Yannick die Charactere inklusive Animationen.
 Der Startscreen blieb in der Aufteilung bis aufs weitere aus, da die Aufwendigkeit desselben sich leicht auf die übrige Zeit vor Abgabe anpassen lässt.
-Dies blieb neben dem Programmieren bis auf weiteres ein Parralel laufender Prozess.
-
+Das Design blieb neben dem Programmieren bis auf weiteres ein Parralel laufender Prozess.
 
 Nun waren alle absoulut notwendigen Elemente integriert.
 Wir begannen also mit etwas, dass wir uns schon eine Weile vorgenommen hatten. 
-Wir wollten das Programm neu aufsetzen, da im entstehungsprozess aus einigen gründen sich überall unschönheiten zeigten. 
+Wir wollten das Programm neu aufsetzen, da im Entstehungsprozess aus einigen Gründen sich überall Unschönheiten zeigten. 
 Sei es ein obsoleter Programmschnipsel für ein inzwischen nicht mehr genutztes Feature oder ein unkompakter Programmierstiel.
-Außerdem befanden sich einzelne Features in unterschiedlichen Speicherständen da Malte und Yannick oft gleichzeitig an unterschiedlichen Features arbeiteten.
-Mit dem neuen Aufsetzen sollte also alles sauber zusammengefügt werden.
+Außerdem befanden sich einzelne Features in unterschiedlichen Speicherständen da Malte und Yannick ja oft gleichzeitig an unterschiedlichen Features gearbeitet hatten.
+Mit dem neuen Aufsetzen sollte also alles sauber und kompakt zusammengefügt werden.
+
+### <a name="31"></a>Informatik Stunde 31-Abgabe:
+
+Bis zum Schluss waren wir damit beschäftigt alle Elemente zusammenzuführen.
+Alle Grafiken an den richtigen Ort zu bringen, jedes Feature zu implimentieren etc.
+Einige Dinge z.B. in der Funktionsweise der Blöcke oder der Animation des Startscreens wurden so verändert das die Funktionalität eher als die Ästhetik garantiert war.
+Z.B. sorgte das Blinken der Grafik die anzeigte, welcher Character von Player 1/2 angewählt war für Bugs und wurde somit entfernt, sodass die Anzeige zwar statisch, aber dafür 100% funktionell war.
