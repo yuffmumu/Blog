@@ -15,11 +15,11 @@
 [Informatik Stunde 14](#14)  
 [Informatik Stunde 15](#15)  
 [Informatik Stunde 16-22](#16)  
-[Informatik Stunde 23](#23) 
-[Informatik Stunde 24](#24)  
-[Informatik Stunde 25](#25) 
-[Informatik Stunde 26-30](#26) 
-[Informatik Stunde 31-Abgabe](#31)  
+[Informatik Stunde 23](#23)  
+[Informatik Stunde 24](#24)   
+[Informatik Stunde 25](#25)  
+[Informatik Stunde 26-30](#26)  
+[Informatik Stunde 31-Abgabe](#31)   
 
 ### <a name="1"></a>Informatik Stunde 1:
 Wir haben einen Github account erstellt und uns nach vorerst relativ oberflächligem Anschauen der gegebenen Möglichkeiten für ein Snap-Projekt entschieden.
